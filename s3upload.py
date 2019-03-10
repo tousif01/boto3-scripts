@@ -7,7 +7,7 @@ filevar = open('sample2.txt','w')
 filevar.write("This is a second sample file uploaded to s3 bucket")
 filevar.close()
 
-s3.upload_file('sample.txt', 'boto3-created-this-bucket','sample.sample')
+s3.upload_file('example.json', 'boto3-created-this-bucket','example.json')
 
 # Call S3 to list current buckets
 response = s3.list_buckets()
